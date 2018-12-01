@@ -1,1 +1,6 @@
 This works almost exactly the same way as case 2, but instead of removing the line with the bad commit, simply replace its pick with edit and save/exit. Rebase will then stop at that commit, put the changes into the index and then let you change it as you like. Commit the change and continue the rebase (git will tell you how to keep the commit message and author if you want). Then push the changes as described above. The same way you can even split commits into smaller ones, or merge commits together.
+
+(git will tell you how to keep the commit message and author if you want).
+
+
+(git will tell you how to keep the commit message and author if you want).
